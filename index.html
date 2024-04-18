@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
+    <div class="container">
     <header>
 <h1>Write me a poem</h1>
 </header>
@@ -19,8 +20,9 @@
         autofocus
         required
         autocomplete="off"
+        class="instructions"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button"/>
     </form>
 
     <div class="poem">
@@ -36,6 +38,7 @@
     <a href="https://github.com/thomenat/poem-generator" target="_blank">open sourced on GitHub</a>
     and <a href="https://write-me-a-poem.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>
+</div>
 
 <script src="src/index.js"></script>
 </body>
