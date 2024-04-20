@@ -7,7 +7,6 @@ function displayPoem(response) {
         delay: 40,
       });
   
-      console.log("poem generated");
 }
 
 
@@ -26,9 +25,6 @@ function generatePoem(event) {
 
 
     axios.get(apiUrl).then(displayPoem);
-
-    console.log("generating poem");
-   
 }
 
 
